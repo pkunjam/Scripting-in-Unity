@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: e6be377b1d6e3494d9baa80e2fbe5dd3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body
+    100002: Chest
+    100004: Cylinder
+    100006: Cylinder_1
+    100008: Cylinder_2
+    100010: Cylinder_3
+    100012: Foot
+    100014: Foot_1
+    100016: Hip
+    100018: L_Ankle
+    100020: L_Elbow
+    100022: L_Foot
+    100024: L_Hand
+    100026: L_Knee
+    100028: L_Shoulder
+    100030: L_Thigh
+    100032: Lower_Arm
+    100034: Lower_Arm_1
+    100036: //RootNode
+    100038: Mech_2
+    100040: Null
+    100042: R_Ankle
+    100044: R_Elbow
+    100046: R_Foot
+    100048: R_Hand
+    100050: R_Knee
+    100052: R_Shoulder
+    100054: R_Thigh
+    100056: Shin
+    100058: Shin_1
+    100060: Shoulder
+    100062: Shoulder_1
+    100064: Skeleton
+    100066: Thigh
+    100068: Thigh_1
+    100070: Upper_Arm
+    100072: Upper_Arm_1
+    100074: Waist
+    400000: Body
+    400002: Chest
+    400004: Cylinder
+    400006: Cylinder_1
+    400008: Cylinder_2
+    400010: Cylinder_3
+    400012: Foot
+    400014: Foot_1
+    400016: Hip
+    400018: L_Ankle
+    400020: L_Elbow
+    400022: L_Foot
+    400024: L_Hand
+    400026: L_Knee
+    400028: L_Shoulder
+    400030: L_Thigh
+    400032: Lower_Arm
+    400034: Lower_Arm_1
+    400036: //RootNode
+    400038: Mech_2
+    400040: Null
+    400042: R_Ankle
+    400044: R_Elbow
+    400046: R_Foot
+    400048: R_Hand
+    400050: R_Knee
+    400052: R_Shoulder
+    400054: R_Thigh
+    400056: Shin
+    400058: Shin_1
+    400060: Shoulder
+    400062: Shoulder_1
+    400064: Skeleton
+    400066: Thigh
+    400068: Thigh_1
+    400070: Upper_Arm
+    400072: Upper_Arm_1
+    400074: Waist
+    2100000: Robot_Bottom
+    2100002: Robot_Top
+    4300000: Cylinder_3
+    4300002: Cylinder
+    4300004: Cylinder_2
+    4300006: Cylinder_1
+    4300008: Foot
+    4300010: Foot_1
+    4300012: Shin
+    4300014: Shin_1
+    4300016: Thigh
+    4300018: Thigh_1
+    4300020: Lower_Arm
+    4300022: Lower_Arm_1
+    4300024: Upper_Arm
+    4300026: Upper_Arm_1
+    4300028: Shoulder
+    4300030: Shoulder_1
+    4300032: Body
+    7400000: CINEMA_4D_Main
+    9500000: //RootNode
+    13700000: Body
+    13700002: Cylinder
+    13700004: Cylinder_1
+    13700006: Cylinder_2
+    13700008: Cylinder_3
+    13700010: Foot
+    13700012: Foot_1
+    13700014: Lower_Arm
+    13700016: Lower_Arm_1
+    13700018: Shin
+    13700020: Shin_1
+    13700022: Shoulder
+    13700024: Shoulder_1
+    13700026: Thigh
+    13700028: Thigh_1
+    13700030: Upper_Arm
+    13700032: Upper_Arm_1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robot_Bottom
+    second: {fileID: 2100000, guid: 368528edde98240ceb8562c4d1b09f63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robot_Top
+    second: {fileID: 2100000, guid: ec085d8d1a3734a3487e505d544eb344, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
