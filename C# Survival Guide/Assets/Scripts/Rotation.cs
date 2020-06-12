@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LookRotation : MonoBehaviour {
+public class Rotation : MonoBehaviour {
 
     public Transform _sphere;
 
@@ -24,6 +24,8 @@ public class LookRotation : MonoBehaviour {
         Vector3 directiontoFace = _sphere.position - transform.position;
         Debug.DrawRay(transform.position, _sphere.position, Color.red);
 
-        transform.rotation = Quaternion.LookRotation(directiontoFace);
+        Quaternion targetRotation = Quaternion.LookRotation(directiontoFace);
+
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 2);
 	}
 }
