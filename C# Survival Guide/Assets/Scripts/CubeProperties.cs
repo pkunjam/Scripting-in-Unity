@@ -18,10 +18,12 @@ public class Properties
 public class CubeProperties : MonoBehaviour {
 
     public Properties stats;
+    public Item[] items;
 
     void Start () {
 
         stats = new Properties(Color.red, new Vector3(1, 0, 1));
+
 	}
 	
 	// Update is called once per frame
