@@ -5,11 +5,11 @@ using UnityEngine;
 public class Customer : MonoBehaviour {
 
     public CustomerDatabase[] customer;
-    public CustomerDatabase details;
+    public CustomerDatabase John;
 
 	void Start () {
 
-        details = new CustomerDatabase("John", "Doe", 27, "Male", "Engineer");
+        John = new CustomerDatabase("John", "Doe", 27, "Male", "Engineer");
 
 	}
 	
