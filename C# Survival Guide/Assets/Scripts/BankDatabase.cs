@@ -10,10 +10,12 @@ public class BankDatabase : Bank{
         Debug.Log(bankName);
         Debug.Log(location);
         Debug.Log(cashInVault);
+
+        loanApproved();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    protected override void loanApproved()
+    {
+        Debug.Log("Loan Approved!");
+    }
 }

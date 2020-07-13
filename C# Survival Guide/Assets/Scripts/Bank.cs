@@ -4,9 +4,14 @@ using UnityEngine;
 
 [System.Serializable]
 
-public class Bank {
+public class Bank : MonoBehaviour {
 
     public string bankName;
     public int cashInVault;
     public string location;
+
+    protected virtual void loanApproved()
+    {
+        Debug.Log("Processing!");
+    }
 }
