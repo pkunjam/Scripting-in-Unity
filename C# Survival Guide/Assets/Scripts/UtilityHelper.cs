@@ -14,4 +14,9 @@ public static class UtilityHelper
     {
         go.transform.position = Vector3.zero;
     }
+
+    public static void RandomColor(GameObject go)
+    {
+        go.GetComponent<MeshRenderer>().material.color = new Color(Random.value, Random.value, Random.value, Random.value);
+    }
 }

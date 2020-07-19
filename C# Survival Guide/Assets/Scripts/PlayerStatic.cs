@@ -15,5 +15,10 @@ public class PlayerStatic : MonoBehaviour {
         {
             UtilityHelper.SetPositionToZero(this.gameObject);
         }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            UtilityHelper.RandomColor(this.gameObject);
+        }
 	}
 }
