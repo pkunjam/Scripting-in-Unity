@@ -190,6 +190,7 @@ GameObject:
   - component: {fileID: 1868929218}
   - component: {fileID: 1868929217}
   - component: {fileID: 1868929220}
+  - component: {fileID: 1868929221}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -263,7 +264,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1868929216}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c874cd7e7f1970e42a3b67d5ec67e2ea, type: 3}
   m_Name: 
@@ -274,3 +275,19 @@ MonoBehaviour:
   - Mary
   - Jason
   - Marcus
+--- !u!114 &1868929221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1868929216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a993ebb0813abe46bb877b570e5dc39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gObjects:
+  - {fileID: 1959993055941832, guid: 25d61888b37a7e544a02dd120e925e69, type: 2}
+  - {fileID: 1116448768499310, guid: ad9f7488cda3bb548af3ecc3977db865, type: 2}
+  - {fileID: 1723968972154574, guid: a5e11913fc6f77d4f9612b98d04116ac, type: 2}
+  ObjectsCreated: []
