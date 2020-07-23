@@ -7,14 +7,14 @@ using UnityEngine;
 public class Item {
 
     public string name;
-    public string description;
     public int id;
+    public string description;
 
     public Item(string name, string description, int id)
     {
         this.name = name;
-        this.description = description;
         this.id = id;
+        this.description = description;
     }
 }
 
