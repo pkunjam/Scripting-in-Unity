@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interface_Enemy : MonoBehaviour, IDamageable<float>
+public class Interface_Enemy : MonoBehaviour, IDamageable<float>, IShoot
 {
     public float Health
     {
@@ -20,5 +20,10 @@ public class Interface_Enemy : MonoBehaviour, IDamageable<float>
     public void Damage(float damageAmount)
     {
         Health -= damageAmount;
+    }
+
+    public void Shoot()
+    {
+        GetComponent<MeshRenderer>().material.color = Color.cyan;
     }
 }

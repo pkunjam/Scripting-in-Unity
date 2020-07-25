@@ -24,6 +24,6 @@ public class Interface_Player : MonoBehaviour, IDamageable<int>, IShoot
 
     public void Shoot()
     {
-        throw new System.NotImplementedException();
+        GetComponent<MeshRenderer>().material.color = Color.cyan;
     }
 }
