@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interface_Enemy : MonoBehaviour, IDamageable
+public class Interface_Enemy : MonoBehaviour, IDamageable<float>
 {
-    public int Health
+    public float Health
     {
         get
         {
@@ -17,7 +17,7 @@ public class Interface_Enemy : MonoBehaviour, IDamageable
         }
     }
 
-    public void Damage(int damageAmount)
+    public void Damage(float damageAmount)
     {
         Health -= damageAmount;
     }

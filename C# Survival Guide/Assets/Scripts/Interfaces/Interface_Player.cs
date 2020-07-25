@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interface_Player : MonoBehaviour, IDamageable, IShoot
+public class Interface_Player : MonoBehaviour, IDamageable<int>, IShoot
 {
 	public int Health
     {
