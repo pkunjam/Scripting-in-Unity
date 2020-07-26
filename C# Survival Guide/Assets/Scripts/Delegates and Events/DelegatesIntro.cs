@@ -13,11 +13,15 @@ public class DelegatesIntro : MonoBehaviour
     void Start()
     {
         onPositionChange = UpdatePosition;
-        onPositionChange(new Vector3(0,1,3));
+
+        if(onPositionChange != null)
+            onPositionChange(new Vector3(0,1,3));
 
         onComplete += Task1;
         onComplete += Task2;
-        onComplete();
+
+        if(onComplete != null)
+            onComplete();
     }
 
     void UpdatePosition(Vector3 pos)
