@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 71684237}
   - component: {fileID: 71684238}
   - component: {fileID: 71684239}
+  - component: {fileID: 71684240}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -221,9 +222,20 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 71684233}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02278ab3594bf2e47b7e1171adc2a2ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &71684240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 71684233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f558d6a8baef7e41a1a2336699a744c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &336014912
@@ -639,8 +651,9 @@ GameObject:
   - component: {fileID: 1062470723}
   - component: {fileID: 1062470722}
   - component: {fileID: 1062470726}
+  - component: {fileID: 1062470727}
   m_Layer: 0
-  m_Name: TeleCube
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -719,9 +732,20 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1062470721}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40be1f4e51c57fc4588b229fb655cae3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1062470727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1062470721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c0d7a1fcb2f8ab449bbf12d3bbaaf2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1388423816
