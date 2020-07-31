@@ -6,7 +6,11 @@ public class SingletonPlayer : MonoBehaviour {
 
 	void Start ()
     {
-        GameManager.Instance.DisplayName();
+        GameManager.Instance.DisplayName(this.gameObject);
+
+        UIManager.Instance.UpdateScore(50);
+
+        Spawn_Manager.Instance.Spawning();
 	}
 	
 }

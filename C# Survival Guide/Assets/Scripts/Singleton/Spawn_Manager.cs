@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour {
+public class Spawn_Manager : MonoBehaviour {
 
-    private static GameManager _instance;
+    private static Spawn_Manager _instance;
 
-    public static GameManager Instance
+    public static Spawn_Manager Instance
     {
         get
         {
             if (_instance == null)
-                Debug.Log("Null instance");
+                Debug.LogError("Null instance");
 
             return _instance;
         }
@@ -22,8 +22,8 @@ public class GameManager : MonoBehaviour {
         _instance = this;
     }
 
-    public void DisplayName(GameObject obj)
+    public void Spawning()
     {
-        Debug.Log("This is " + obj.name);
+        Debug.Log("Spawning initiated");
     }
 }
